@@ -36,6 +36,7 @@ header{
 .header-main .txt-style{
     font-size: 2rem;
     float: right;
+    color: orange;
 }
 
 nav{
@@ -46,6 +47,7 @@ nav{
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    z-index: 999;
 }
 
 /* mouse scroll down animation */
@@ -143,8 +145,14 @@ nav ul li a:hover{
 
 
 /* main css */
+
+main{
+    position: relative;
+    
+}
+
 .map-loc{
-    display: flex;
+    display: block;
     justify-content: center;
     margin: 50px;
 }
