@@ -65,7 +65,7 @@ window.onload = function() {
 
     // keyboard shortcuts
     document.addEventListener("keyup", function(e) {
-        switch (e.keyCode) {
+        switch (e.KeyboardEvent.keyCode) {
             case 37:
                 testimLeftArrow.click();
                 break;
