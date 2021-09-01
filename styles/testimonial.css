@@ -75,7 +75,7 @@
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    border: 1px solid green;
+    border: 1px solid orange;
     margin: 0 10px;
     cursor: pointer;
     -webkit-transition: all .5s ease-in-out;    
@@ -88,8 +88,8 @@
 
 .testim .dots .dot.active,
 .testim .dots .dot:hover {
-    background: green;
-    border-color: green;
+    background: orange;
+    border-color: orange;
 }
 
 .testim .dots .dot.active {
@@ -134,8 +134,8 @@
 }
 
 .testim .cont div h2 {
-    color: green;
-    font-size: 1em;
+    color: orange;
+    font-size: 1.5rem;
     margin: 15px 0;
 }
 
